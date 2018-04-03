@@ -56,7 +56,7 @@ export default function request(url, options) {
     newOptions.body = JSON.stringify(newOptions.body);
   }
 
-  return fetch(`${url}`, newOptions)
+  return fetch(`/react-antd-pro-demo/dist${url}`, newOptions)
     .then(checkStatus)
     .then((response) => {
       if (newOptions.method === 'DELETE' || response.status === 204) {
