@@ -16,7 +16,7 @@
   "html": {
     "template": "./src/index.ejs"
   },
-  "publicPath": "/",
+  "publicPath": "/react-antd-pro-demo/dist/",
   "disableDynamicImport": true,
   "hash": true
 }
