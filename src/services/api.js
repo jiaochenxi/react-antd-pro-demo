@@ -9,7 +9,7 @@ export async function queryActivities() {
   return request('/api/activities.json');
 }
 
-export async function queryRule(params) {
+export async function queryRule() {
   return request('/api/rule.json');
 }
 
